@@ -77,7 +77,7 @@ for (const i of productos){
     nuevoDiv.className = "card";
     contenedorCard.appendChild(nuevoDiv);
 
-    const titulo_producto = document.createElement("h1")
+    const titulo_producto = document.createElement("h3")
     titulo_producto.textContent = i.nombre;
     nuevoDiv.appendChild(titulo_producto);
     
