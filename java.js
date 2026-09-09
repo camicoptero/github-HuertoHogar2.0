@@ -13,7 +13,7 @@ productos = [
             "id":1,
             "nombre":" Manzanas Fuji",
             "imagen":"https://jumbocl.vtexassets.com/arquivos/ids/357731-250-250/Manzana-Fuji-granel.jpg?v=638776720527670000",
-            "descripcion":"Descripción: Descripción: Manzanas Fuji crujientes y dulces, cultivadas en el Valle del Maule. Perfectas para meriendas saludables o como ingrediente en postres. Estas manzanas son conocidas por su textura firme y su sabor equilibrado entre dulce y ácido.",
+            "descripcion":" Descripción: Manzanas Fuji crujientes y dulces, cultivadas en el Valle del Maule. Perfectas para meriendas saludables o como ingrediente en postres. Estas manzanas son conocidas por su textura firme y su sabor equilibrado entre dulce y ácido.",
                                 
             "precio":"1200 x kilo"
         },
@@ -86,7 +86,7 @@ for (const i of productos){
     imgProducto.className = "imgProducto";
     nuevoDiv.appendChild(imgProducto);
 
-    const desc_producto = document.createElement("h3");
+    const desc_producto = document.createElement("p");
     desc_producto.textContent = i.descripcion;
     nuevoDiv.appendChild(desc_producto);
 
