@@ -8,13 +8,35 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-huerto sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo.png" alt="Logo" width="40" height="40">
+        <span class="fw-bold">Huerto Hogar 2.0</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalogo.html">Catalogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-2">
+          <a href="carrito.html" class="btn btn-outline-huerto btn-sm position-relative">
+            Carrito
+            <span id="contador-carrito" class="badge rounded-pill bg-danger d-none">0</span>
+          </a>
+          <div id="zona-sesion" class="d-flex"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
     
 
-    <main>
-        <section id="prueba">
-           
-        </section>
-    </main>
+   
+    
 
 
 
