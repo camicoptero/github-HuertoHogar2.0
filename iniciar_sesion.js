@@ -25,7 +25,7 @@ console.log(Nombre_usuario)
 localStorage.setItem(key_storage,JSON.stringify(Nombre_usuario));
 
 var Storage = localStorage.getItem(key_storage);
-console.log(JSON.parse(Storage))
+console.log(JSON.parse(Storage));
 
 
 
